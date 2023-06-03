@@ -1,0 +1,4 @@
+image: gitpod/workspace-msql
+
+tasks:
+- init: mysql -u root -e "CREATE DATABASE ads"
